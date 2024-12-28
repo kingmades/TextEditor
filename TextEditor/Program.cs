@@ -36,6 +36,9 @@ class Program
 			string text = file.ReadToEnd();
 			Console.WriteLine(text);
 		}
+
+		Console.ReadLine();
+		Menu();
 	}
 
 	static void Editar()
